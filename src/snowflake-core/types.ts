@@ -1,12 +1,12 @@
-import { ENVIRONMENT } from "../types"
+import { ENVIRONMENT } from "../types";
 
 export interface WarehouseArgs {
-    name: string,
-    default: boolean
+  name: string;
+  default: boolean;
 }
 
 export interface SnowflakeCoreArgs {
-    name: string
-    env: ENVIRONMENT | string
-    warehouses: WarehouseArgs[]
+  name: string;
+  env: ENVIRONMENT | string;
+  warehouses: WarehouseArgs[];
 }
