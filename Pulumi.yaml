@@ -1,0 +1,6 @@
+name: app
+runtime: nodejs
+description: App components for a data42 app
+config:
+  snowflake:account: BQ47791.eu-central-1
+  snowflake:role: DEPLOYMENT
